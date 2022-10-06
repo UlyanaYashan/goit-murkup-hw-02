@@ -6,11 +6,6 @@
     --secondary-background-color:#2f303a;
     --hero-text-color: #ffffff;
 }
-/* колір основного тексту #F5F5F5 */
-/* колір тескту заголовків 212121 */
-/* колір фону F5F5F5*/
-/* вторинний колір фону F5F4FA*/
-/* колір фону головного заголовку та футера 2F303A */
 
 body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
@@ -20,6 +15,9 @@ body {
   background-color: var(--primary-background-color);
   letter-spacing: 0.03em;
 }
+
+ul {list-style: none;}
+
 /* логотип сайту */
 .logo {
   color: #000000;
@@ -45,8 +43,12 @@ body {
   line-height: 1.1;
 }
 .site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link:focus 
+{
   color: var(--accent-color);
+}
+.current {
+  color:var(--accent-color);
 }
 .nav-contacts {
   color: var(--secondary-text-color);
@@ -71,15 +73,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero-button {
+.hero-btn {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
 }
-.hero-button:hover,
+.hero-btn:hover,
 focus {
-  color: var(--secondary-background-color);
+color: var(--secondary-background-color);
 }
 
 /* секція списку переваг */
@@ -121,6 +123,7 @@ focus {
   color: var(--hero-text-color);
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   text-decoration: none;
 }
@@ -129,6 +132,7 @@ focus {
   background-color: var(--secondary-background-color);
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   text-decoration: none;
 }
@@ -158,6 +162,7 @@ focus {
 .btn:focus {
   color: var(--accent-color);
 }
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
