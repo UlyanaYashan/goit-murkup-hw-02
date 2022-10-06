@@ -5,47 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="./index.html">Контакти</a></li>
+        <a href="./index.html" class="logo"><span class="icon">Web</span>Studio</a>
+        <ul class="site-nav">
+          <li><a class="site-nav-link" href="./index.html">Студія</a></li>
+          <li><a class="site-nav-link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="site-nav-link" href="./index.html">Контакти</a></li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="nav-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <section>
+        <h1>перелік проектів та додатків</h1>
         <ul>
           <li>
-            <button type="button">Усі</button>
+            <button class="btn"  type="button">Усі</button>
           </li>
           <li>
-            <button type="button">Веб-сайти</button>
+            <button  class="btn" type="button">Веб-сайти</button>
           </li>
           <li>
-            <button type="button">Додатки</button>
+            <button class="btn" type="button">Додатки</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button class="btn" type="button">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button class="btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <h1>перелік проектів та додатків</h1>
         <ul>
           <li>
             <a>
@@ -54,8 +55,8 @@
                 alt="фото з даними трьох людей, зображених на ноутбуці"
                 width="370"
               />
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Технокряк</h2>
+              <p class="subtitle">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -65,8 +66,8 @@
                 alt="фото з двома чоловіками, які грають в баскетбол"
                 width="370"
               />
-              <h3>Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p>
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="subtitle">Дизайн</p>
             </a>
           </li>
           <li>
@@ -76,8 +77,8 @@
                 alt="фото логотипу ресторану"
                 width="370"
               />
-              <h3>Ресторан Seafood</h3>
-              <p>Додаток</p>
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="subtitle">Додаток</p>
             </a>
           </li>
           <li>
@@ -87,8 +88,8 @@
                 alt="фото навушників"
                 width="370"
               />
-              <h3>Проєкт Prime</h3>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проєкт Prime</h2>
+              <p class="subtitle">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -98,8 +99,8 @@
                 alt="фото двох коробок"
                 width="370"
               />
-              <h3>Проєкт Boxes</h3>
-              <p>Додаток</p>
+              <h2 class="project-title">Проєкт Boxes</h2>
+              <p class="subtitle">Додаток</p>
             </a>
           </li>
           <li>
@@ -109,8 +110,8 @@
                 alt="фото монітора від компютера"
                 width="370"
               />
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="subtitle">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -120,8 +121,8 @@
                 alt="фото відкритої книги"
                 width="370"
               />
-              <h3>Видання Limited Edition</h3>
-              <p>Дизайн</p>
+              <h2 class="project-title">Видання Limited Edition</h2>
+              <p class="subtitle">Дизайн</p>
             </a>
           </li>
           <li>
@@ -131,8 +132,8 @@
                 alt="фото надпису на кулоні"
                 width="370"
               />
-              <h3>Проєкт LAB</h3>
-              <p>Маркетинг</p>
+              <h2 class="project-title">Проєкт LAB</h2>
+              <p class="subtitle">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -142,27 +143,25 @@
                 alt="фото рук людини, які працюють на клавіатурі ноутбука"
                 width="370"
               />
-              <h3>Growing Business</h3>
-              <p>Додаток</p>
+              <h2 class="project-title">Growing Business</h2>
+              <p class="subtitle">Додаток</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
-      <address>
+      <a href="./index.html" class="logo"><span class="icon">Web</span>Studio</a>
+      <address class="footer">
         <ul>
           <li>
-            <a href="м.Київ,пр-т.Лесі-Українки,26"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            ><br />
+            <a class="footer-address" href="м.Київ,пр-т.Лесі-Українки,26">м. Київ, пр-т Лесі Українки, 26</a><br>
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
+            <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="footer-telephone" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
