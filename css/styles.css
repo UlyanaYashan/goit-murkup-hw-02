@@ -11,9 +11,10 @@ body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
   background-color: var(--primary-background-color);
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 ul {list-style: none;}
@@ -22,7 +23,7 @@ ul {list-style: none;}
 .logo {
   color: #000000;
   text-decoration: none;
-  font-family: Raleway, cursive;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -30,14 +31,11 @@ ul {list-style: none;}
 .icon {
   color: var(--accent-color);
 }
-.logo:hover {
-  color: ;
-}
+
 /* навігація сайту */
 .site-nav-link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.02em;
   line-height: 1.1;
@@ -54,7 +52,6 @@ ul {list-style: none;}
   color: var(--secondary-text-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
@@ -78,22 +75,20 @@ ul {list-style: none;}
   background-color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
+  font-family: Roboto sans-serif;
 }
-.hero-btn:hover,
-focus {
+.hero-btn:hover, .hero-btn:focus {
 color: var(--secondary-background-color);
 }
 
 /* секція списку переваг */
 .benefits-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
+  font-size: 14px;
 }
 .benefits-text {
   color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
 }
 /* чим ми займаємось */
@@ -104,7 +99,6 @@ color: var(--secondary-background-color);
   text-align: center;
 }
 .list-worker {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -112,36 +106,32 @@ color: var(--secondary-background-color);
 }
 .list-position {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
 
 /* Футер */
-.footer-address {
+.footer {
   background-color: var(--secondary-background-color);
+}
+.logo-footer {
   color: var(--hero-text-color);
-  font-weight: 400;
-  font-size: 14px;
+}
+.footer-address {
+  color: var(--hero-text-color);
   font-style: normal;
   line-height: 1.7;
   text-decoration: none;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--secondary-background-color);
-  font-weight: 400;
-  font-size: 14px;
   font-style: normal;
   line-height: 1.7;
   text-decoration: none;
 }
 .footer-telephone {
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--secondary-background-color);
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
 }
@@ -157,10 +147,12 @@ color: var(--secondary-background-color);
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: Roboto sans-serif;
 }
 .btn:hover,
 .btn:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color:var(--hero-text-color)
 }
 
 .project-title {
@@ -171,7 +163,6 @@ color: var(--secondary-background-color);
 }
 .subtitle {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
 }
