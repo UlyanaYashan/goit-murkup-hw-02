@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color:#757575;
@@ -60,8 +67,10 @@ ul {list-style: none;}
 }
 
 /* головний заголовок */
+.hero {
+background-color: var(--secondary-background-color);
+}
 .hero-title {
-  background-color: var(--secondary-background-color);
   color: var(--hero-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -75,7 +84,7 @@ ul {list-style: none;}
   background-color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
-  font-family: Roboto sans-serif;
+  font-family: inherit ;
 }
 .hero-btn:hover, .hero-btn:focus {
 color: var(--secondary-background-color);
@@ -119,20 +128,20 @@ color: var(--secondary-background-color);
 }
 .footer-address {
   color: var(--hero-text-color);
-  font-style: normal;
   line-height: 1.7;
+  font-style: normal;
   text-decoration: none;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
   line-height: 1.7;
+  font-style: normal;
   text-decoration: none;
 }
 .footer-telephone {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
   line-height: 1.7;
+  font-style: normal;
   text-decoration: none;
 }
 .footer-telephone:hover,
@@ -147,7 +156,7 @@ color: var(--secondary-background-color);
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
-  font-family: Roboto sans-serif;
+  font-family: inherit ;
 }
 .btn:hover,
 .btn:focus {
